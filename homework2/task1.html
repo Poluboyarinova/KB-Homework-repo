@@ -4,7 +4,7 @@
 <body>
 <script>
     var Number = prompt('Введите число')
-    alert ('Ваше число ' + Number);
+    alert ('Ваше число ' + (Number != null && Number != '' ? Number : 'неизвестно') + '.');
 </script>
 </body>
 
