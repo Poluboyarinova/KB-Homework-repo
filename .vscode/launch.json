@@ -5,17 +5,31 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Task1",
+            "name": "HW1Task1",
             "request": "launch",
             "type": "pwa-chrome",
             "file": "${workspaceFolder}/homework2/task1.html",
             "webRoot": "${workspaceFolder}"
         },
         {
-            "name": "Task2",
+            "name": "HW1Task2",
             "request": "launch",
             "type": "pwa-chrome",
             "file": "${workspaceFolder}/homework2/task2.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "HW1Task3",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "file": "${workspaceFolder}/homework2/task3.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "HW1Task4",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "file": "${workspaceFolder}/homework2/task4.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
